@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 10px;
+}
+body{
+    text-align: center;
+    color: rgb(75, 45, 25);
+    background-color: #c15b28;
+}
+.cont{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;  /*boxes comes center*/
+    gap: 0px 10px;  /*gap bw boxes beside horizontaly*/
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    align-items: center;
+    display: flex;  /* when we click the boxex don't move */
+    flex-wrap: wrap;  /*boxes comes on down*/
+    justify-content: center;  /*boxes comes center*/
+    align-items: center;
+    gap: 8px;
+    
+}
+.box{
+    background: #ffb977a5;
+    border-color:#ffb977a5 ;
+    border-radius: 0.7rem;
+    height: 16vmin;
+    width: 15vmin;
+    background-color:#ffb977a5 ;
+    font-size: 11vmin;
+    /* color: black; */
+    /* box-shadow: 1rem 1rem 1rem; */
+}
+
+#nrs{
+    height: 7vmin;
+    width: 20vmin;
+    border-radius: 4px;
+    background-color: rgb(75, 45, 25);
+    color: rgb(238, 220, 251);
+}
+
+.last{
+    height: 105vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#msg{height: 5vmin;}
+
+
+#rs{
+    height: 7vmin;
+    width: 20vmin;
+    border-radius: 4px;
+    background-color: rgb(75, 45, 25);
+    color: rgb(238, 220, 251);
+}
+
+.hide{display: none;}
